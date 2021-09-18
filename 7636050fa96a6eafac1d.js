@@ -1,0 +1,1 @@
+import Widget from"./widget";const widget=new Widget,container=document.querySelector(".container"),btn=document.querySelector('[toggle="popover"]');container.insertAdjacentHTML("afterbegin",widget.div),btn.addEventListener("click",(e=>{e.preventDefault();const t=container.querySelector('[widget="popover-top"]');t.classList.toggle("invisible"),t.classList.toggle("active")}));
